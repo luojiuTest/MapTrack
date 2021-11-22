@@ -16,7 +16,7 @@ public class LocationListener implements android.location.LocationListener {
     DatabaseHelper databaseHelper;
 
     public void onLocationChanged(Location location) {
-        //调试信息
+        //调试2息
 //        Toast.makeText(MainActivity.getInstance(), "onLocationChanged" + location.toString(), Toast.LENGTH_SHORT).show();
         Log.e("LocationListener", "onLocationChanged" + location.toString());
 
